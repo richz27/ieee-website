@@ -23,7 +23,7 @@ const Navbar = () => {
                         <a href="Team">Team</a>
                     </div>
                     <div className="hidden lg:flex justify-center space-x-12 items center">
-                        <a href="#" className="bg-gradient-to-r from-sky-300 to-sky-600 py-2 px-3 rounded-md">
+                        <a href="#" className="bg-gradient-to-r from-sky-300 to-purple-600 py-2 px-3 rounded-md">
                             Join Us!  
                         </a>
                     </div>
@@ -42,7 +42,7 @@ const Navbar = () => {
                         <div className="flex space-x-6">
                             <a 
                                 href="#" 
-                                className="py-2 px-3 rounded-md bg-gradient-to-r from-sky-200 to-sky-500"
+                                className="py-2 px-3 rounded-md bg-gradient-to-r from-sky-300 to-purple-600"
                             >
                                 Join Us!
                             </a>
