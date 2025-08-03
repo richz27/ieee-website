@@ -1,22 +1,19 @@
 import './App.css'
 import Navbar from './components/Navbar'
+import HeroSection from './components/heroSection'
 
 
 function App() {
   return (
     <>
-      <header>
-        <Navbar/> 
-      </header>     
-
-      <main>
-        <section id="hero">
-          <p>Welcome to</p>
-          <h1 className="font-bold underline">Northwestern IEEE Student Branch</h1>
-        </section>
-      </main>
- 
-      <footer>This is the footer</footer>
+      <Navbar/> 
+      <div className="max-w-7xl mx-auto">
+        <main>
+          <HeroSection /> 
+        </main>
+  
+        <footer>This is the footer</footer>
+      </div>
     </>
   )
 }
