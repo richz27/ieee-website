@@ -14,7 +14,8 @@ function App() {
           <About />
         </main>
         <div className="flex flex-col justify-center min-h-screen">
-          Place Holder: To delete
+          Programs: What we do <br/>
+          Team: Meet the team <br/>
         </div>
         <footer>This is the footer</footer>
       </div>
