@@ -17,10 +17,10 @@ const Navbar = () => {
                         <img className="logo h-10 w-auto mr-2" src={ieeelogo} alt="IEEE Logo"/> 
                     </div>
                     <div className="hidden lg:flex mr-18 space-x-12">
-                        <a href="home">Home</a>
-                        <a href="about">About</a>
-                        <a href="program">Programs</a>
-                        <a href="Team">Team</a>
+                        <a href="#home">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#programs">Programs</a>
+                        <a href="#team">Team</a>
                     </div>
                     <div className="hidden lg:flex justify-center space-x-12 items center">
                         <a href="#" className="bg-gradient-to-r from-sky-300 to-purple-600 py-2 px-3 rounded-md">
@@ -35,10 +35,10 @@ const Navbar = () => {
                 </div>
                 {mobileDrawerOpen && (
                     <div className="className=fixed right-0 z-20 w-full p-12 flex flex-col justify-center items-center lg:hidden">
-                        <a className="py-4" href="home">Home</a>
-                        <a className="py-4" href="about">About</a>
-                        <a className="py-4" href="program">Programs</a>
-                        <a className="py-4" href="Team">Team</a>
+                        <a className="py-4" href="#home">Home</a>
+                        <a className="py-4" href="#about">About</a>
+                        <a className="py-4" href="#programs">Programs</a>
+                        <a className="py-4" href="#team">Team</a>
                         <div className="flex space-x-6">
                             <a 
                                 href="#" 

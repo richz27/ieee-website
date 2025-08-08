@@ -10,13 +10,19 @@ function App() {
       <Navbar /> 
       <div className="mx-auto">
         <main>
-          <HeroSection /> 
-          <About />
+          <section id="home">
+            <HeroSection /> 
+          </section>
+          <section id="about">
+            <About />
+          </section>
         </main>
-        <div className="flex flex-col justify-center min-h-screen">
+        <section id="programs" className="flex flex-col justify-center min-h-screen">
           Programs: What we do <br/>
+        </section>
+        <section id="team" className="flex flex-col justify-center min-h-screen">
           Team: Meet the team <br/>
-        </div>
+        </section>
         <footer>This is the footer</footer>
       </div>
     </>
