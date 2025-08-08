@@ -11,7 +11,7 @@ const About = () => {
                 <span className="bg-gradient-to-r from-purple-300 to-purple-600 text-transparent bg-clip-text">Northwestern IEEE</span>
             </h2>
             {/* Content: Image + Description */}
-            <div className="mx-4 mt-5 flex flex-wrap justify-center lg:mx-10">
+            <div className="mt-5 flex flex-wrap justify-center lg:mx-10">
                 {/* Image */}
                 <div className="flex items-center w-full lg:w-1/2 lg:p-4">
                     <img className="rounded-xl" src={showcaseImg} alt="Photos from IEEE final showcase"></img>
@@ -32,7 +32,7 @@ const About = () => {
                 </div>
             </div>
             {/* Mission Statement */}
-            <div className="mx-4 mt-15 flex flex-wrap justify-center lg:mx-10">
+            <div className="mt-15 flex flex-wrap justify-center lg:mx-10">
                 {/* Paragraph Description */}
                 <div className="flex flex-col pt-4 justify-center items-center w-full lg:w-1/2 p-4">      
                     <h3 className="text-2xl sm:text-2xl lg:text-3xl text-center mt-6 tracking-wide"> 
@@ -46,16 +46,16 @@ const About = () => {
                         <h4 className="text-lg font-semibold text-neutral-100 mb-4 lg:text-xl">Our goals are to:</h4>
                         <ul className="space-y-3 lg:ml-8 text-neutral-200">
                             <li className="flex items-start space-x-3">
-                                <Zap className="text-purple-400 w-6 h-6 mt-0.5 flex-shrink-0" />
-                                <span className="text-md lg:text-lg">Develop technical skills through hands-on projects</span>
+                                <Zap className="text-purple-400 w-6 h-6 -mt-0.5 lg:mt-0.5 flex-shrink-0" />
+                                <span className="text-sm lg:text-lg">Develop technical skills through hands-on projects</span>
                             </li>
                             <li className="flex items-start space-x-3">
-                                <Users className="text-blue-400 w-6 h-6 mt-0.5 flex-shrink-0" />
-                                <span className="text-md lg:text-lg">Foster communication and teamwork abilities</span>
+                                <Users className="text-blue-400 w-6 h-6 -mt-0.5 lg:mt-0.5 flex-shrink-0" />
+                                <span className="text-sm lg:text-lg">Foster communication and teamwork abilities</span>
                             </li>
                             <li className="flex items-start space-x-3">
-                                <Globe className="text-green-400 w-6 h-6 mt-0.5 flex-shrink-0" />
-                                <span className="text-md lg:text-lg">Build a community focused on positive impact</span>
+                                <Globe className="text-green-400 w-6 h-6 -mt-0.5 lg:mt-0.5 flex-shrink-0" />
+                                <span className="text-sm lg:text-lg">Build a community focused on positive impact</span>
                             </li>
                         </ul>
                     </div>
