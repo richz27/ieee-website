@@ -2,6 +2,9 @@ import './App.css'
 import Navbar from './components/Navbar'
 import HeroSection from './components/HeroSection'
 import About from './components/About'
+import Programs from './components/Programs'
+import Team from './components/Team'
+import Footer from './components/Footer'
 
 
 function App() {
@@ -16,14 +19,14 @@ function App() {
           <section id="about">
             <About />
           </section>
+          <section id="programs" className="flex flex-col justify-center min-h-screen">
+            <Programs />
+          </section>
+          <section id="team" className="flex flex-col justify-center min-h-screen">
+            <Team /> 
+          </section>
         </main>
-        <section id="programs" className="flex flex-col justify-center min-h-screen">
-          Programs: What we do <br/>
-        </section>
-        <section id="team" className="flex flex-col justify-center min-h-screen">
-          Team: Meet the team <br/>
-        </section>
-        <footer>This is the footer</footer>
+        <Footer />
       </div>
     </>
   )

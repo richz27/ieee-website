@@ -42,9 +42,9 @@ const About = () => {
                         For our student branch here at Northwestern, our mission has always been to provide a comprehensive learning experience for our members in both technical and soft skills, and to build a community of engineers who care about making a positive impact in the world.
                     </p>
                     
-                    <div className="w-full max-w-4xl">
+                    <div className="max-w-4xl mx-auto">
                         <h4 className="text-lg font-semibold text-neutral-100 mb-4 lg:text-xl">Our goals are to:</h4>
-                        <ul className="space-y-3 lg:ml-8 text-neutral-200">
+                        <ul className="space-y-3 text-neutral-200">
                             <li className="flex items-start space-x-3">
                                 <Zap className="text-purple-400 w-6 h-6 -mt-0.5 lg:mt-0.5 flex-shrink-0" />
                                 <span className="text-sm lg:text-lg">Develop technical skills through hands-on projects</span>
