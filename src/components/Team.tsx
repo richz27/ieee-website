@@ -18,7 +18,7 @@ const Team = () => {
             </p>
 
             <div className="mt-8 flex flex-wrap justify-center lg:mx-10">
-                {/* Team Member */}
+                {/* Mimi */}
                 <div className="flex flex-col items-center w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 p-4">
                     <img 
                         className="w-32 h-32 bg-neutral-700 rounded-lg mb-4 object-cover" 
@@ -30,7 +30,7 @@ const Team = () => {
                     <p className="text-neutral-400 text-sm text-center">Junior, Computer Science</p>
                 </div>
 
-                {/* Team Member */}
+                {/* Richard */}
                 <div className="flex flex-col items-center w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 p-4">
                     <img 
                         className="w-32 h-32 bg-neutral-700 rounded-lg mb-4 object-cover" 
@@ -42,7 +42,7 @@ const Team = () => {
                     <p className="text-neutral-400 text-sm text-center">Junior, Computer Science</p>
                 </div>
 
-                {/* Team Member */}
+                {/* Katie */}
                 <div className="flex flex-col items-center w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 p-4">
                     <img 
                         className="w-32 h-32 bg-neutral-700 rounded-lg mb-4 object-cover" 
@@ -54,7 +54,7 @@ const Team = () => {
                     <p className="text-neutral-400 text-sm text-center">Junior, Computer Engineering</p>
                 </div>
 
-                {/* Team Member */}
+                {/* Aditi */}
                 <div className="flex flex-col items-center w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 p-4">
                     <img 
                         className="w-32 h-32 bg-neutral-700 rounded-lg mb-4 object-cover" 
@@ -66,7 +66,7 @@ const Team = () => {
                     <p className="text-neutral-400 text-sm text-center">Junior, Applied Mathematics</p>
                 </div>
 
-                {/* Team Member */}
+                {/* Can */}
                 <div className="flex flex-col items-center w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 p-4">
                     <img 
                         className="w-32 h-32 bg-neutral-700 rounded-lg mb-4 object-cover" 
@@ -78,7 +78,7 @@ const Team = () => {
                     <p className="text-neutral-400 text-sm text-center">Junior, Computer Engineering</p>
                 </div>
 
-                {/* Team Member */}
+                {/* Naomi */}
                 <div className="flex flex-col items-center w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 p-4">
                     <img 
                         className="w-32 h-32 bg-neutral-700 rounded-lg mb-4 object-cover" 
@@ -90,7 +90,7 @@ const Team = () => {
                     <p className="text-neutral-400 text-sm text-center">Sophomore, Computer Science & Economics</p>
                 </div>
 
-                {/* Team Member */}
+                {/* Vicheda */}
                 <div className="flex flex-col items-center w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 p-4">
                     <img 
                         className="w-32 h-32 bg-neutral-700 rounded-lg mb-4 object-cover" 
