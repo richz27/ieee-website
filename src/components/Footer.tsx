@@ -15,7 +15,7 @@ const Footer = () => {
                     </div>
                     
                     <div className="text-xs text-neutral-500">
-                        <div>© 2024 Northwestern University IEEE</div>
+                        <div>© 2025 Northwestern University IEEE</div>
                         <div>Built and designed by Richard Zhang</div>
                     </div>
                 </div>
