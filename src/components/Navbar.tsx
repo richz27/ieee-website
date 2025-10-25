@@ -23,7 +23,7 @@ const Navbar = () => {
                         <a href="#team">Team</a>
                     </div>
                     <div className="hidden lg:flex justify-center space-x-12 items center">
-                        <a href="#" className="bg-gradient-to-r from-sky-300 to-purple-600 py-2 px-3 rounded-md">
+                        <a href="https://discord.gg/EjGsNYSSex" className="bg-gradient-to-r from-sky-300 to-purple-600 py-2 px-3 rounded-md">
                             Join Us!  
                         </a>
                     </div>
