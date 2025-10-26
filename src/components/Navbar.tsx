@@ -41,7 +41,7 @@ const Navbar = () => {
                         <a className="py-4" href="#team">Team</a>
                         <div className="flex space-x-6">
                             <a 
-                                href="#" 
+                                href="https://discord.gg/EjGsNYSSex" 
                                 className="py-2 px-3 rounded-md bg-gradient-to-r from-sky-300 to-purple-600"
                             >
                                 Join Us!
