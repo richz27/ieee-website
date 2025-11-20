@@ -24,7 +24,7 @@ A modern, responsive website for the Northwestern University Student Chapter of 
 ### Installation
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/richz27/ieee-website.git
 cd ieee-website
 npm install
 npm run dev
