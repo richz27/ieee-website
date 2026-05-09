@@ -4,6 +4,7 @@ import HeroSection from './components/HeroSection'
 import About from './components/About'
 import Programs from './components/Programs'
 import Team from './components/Team'
+import Sponsors from './components/Sponsors'
 import Footer from './components/Footer'
 
 
@@ -24,6 +25,9 @@ function App() {
           </section>
           <section id="team" className="flex flex-col justify-center min-h-screen">
             <Team /> 
+          </section>
+          <section id="sponsors">
+            <Sponsors /> 
           </section>
         </main>
         <Footer />

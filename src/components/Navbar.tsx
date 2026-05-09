@@ -21,6 +21,7 @@ const Navbar = () => {
                         <a href="#about">About</a>
                         <a href="#programs">Programs</a>
                         <a href="#team">Team</a>
+                        <a href="#sponsors">Sponsors</a>
                     </div>
                     <div className="hidden lg:flex justify-center space-x-12 items center">
                         <a href="https://discord.gg/EjGsNYSSex" className="bg-gradient-to-r from-sky-300 to-purple-600 py-2 px-3 rounded-md">
@@ -39,16 +40,17 @@ const Navbar = () => {
                         <a className="py-4" href="#about">About</a>
                         <a className="py-4" href="#programs">Programs</a>
                         <a className="py-4" href="#team">Team</a>
+                        <a className="py-4" href="#sponsors">Sponsors</a>
                         <div className="flex space-x-6">
                             <a 
                                 href="https://discord.gg/EjGsNYSSex" 
                                 className="py-2 px-3 rounded-md bg-gradient-to-r from-sky-300 to-purple-600"
                             >
+
                                 Join Us!
                             </a>
                         </div>
                     </div>
-                    
                 )}
             </div>
         </nav>
