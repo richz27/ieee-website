@@ -24,7 +24,7 @@ const Navbar = () => {
                         <a href="#sponsors">Sponsors</a>
                     </div>
                     <div className="hidden lg:flex justify-center space-x-12 items center">
-                        <a href="https://discord.gg/EjGsNYSSex" className="bg-gradient-to-r from-sky-300 to-purple-600 py-2 px-3 rounded-md">
+                        <a href="https://discord.gg/yzUDHqhbK6" className="bg-gradient-to-r from-sky-300 to-purple-600 py-2 px-3 rounded-md">
                             Join Us!  
                         </a>
                     </div>
@@ -43,7 +43,7 @@ const Navbar = () => {
                         <a className="py-4" href="#sponsors">Sponsors</a>
                         <div className="flex space-x-6">
                             <a 
-                                href="https://discord.gg/EjGsNYSSex" 
+                                href="https://discord.gg/paTmN5AGG" 
                                 className="py-2 px-3 rounded-md bg-gradient-to-r from-sky-300 to-purple-600"
                             >
 

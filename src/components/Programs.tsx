@@ -1,4 +1,13 @@
+
 import { Code, Users, Lightbulb, Award } from "lucide-react"
+
+import image1 from "../assets/images/technical-program/image_1.JPG"
+import image2 from "../assets/images/technical-program/image_2.JPG"
+import image3 from "../assets/images/technical-program/image_3.JPG"
+import image4 from "../assets/images/technical-program/image_4.JPG"
+import image5 from "../assets/images/technical-program/image_5.JPG"
+
+const images = [image1, image2, image3, image4, image5]
 
 const Programs = () => {
     return (
@@ -21,6 +30,26 @@ const Programs = () => {
                             <p className="text-purple-400 font-medium">Our Flagship Program</p>
                         </div>
                     </div>
+
+                    <div
+                        className="relative overflow-hidden w-full mb-6 rounded-lg"
+                        style={{
+                            WebkitMaskImage: "linear-gradient(to right, transparent, black 15%, black 85%, transparent)",
+                            maskImage: "linear-gradient(to right, transparent, black 15%, black 85%, transparent)",
+                        }}
+                    >
+                        <div className="flex gap-4 w-max animate-slide">
+                            {[...images, ...images].map((src, i) => (
+                                <img
+                                    key={i}
+                                    src={src}
+                                    alt=""
+                                    className="h-40 w-64 object-cover rounded-lg flex-shrink-0"
+                                />
+                            ))}
+                        </div>
+                    </div>
+                    
                     <p className="text-neutral-200 mb-4 lg:text-lg leading-relaxed">
                         A comprehensive 4-month mentorship program that places students in teams of 4–5, led by experienced project managers. 
                         Work collaboratively on real technical projects, participate in peer feedback sessions, and build practical skills through 

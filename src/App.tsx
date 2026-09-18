@@ -7,7 +7,6 @@ import Team from './components/Team'
 import Sponsors from './components/Sponsors'
 import Footer from './components/Footer'
 
-
 function App() {
   return (
     <>
