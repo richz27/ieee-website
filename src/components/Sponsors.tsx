@@ -10,23 +10,22 @@ const Sponsors = () => {
             <p className="text-md text-center text-neutral-400 max-w-3xl mx-auto p-4 lg:text-lg">
                 Thank you to our sponsors, Schneider Electric and Hull Tactical, for their generous support in helping us achieve our mission! If you're interested in becoming a sponsor, please email us at ieee@u.northwestern.edu. 
             </p>
-            <div className="mt-8 flex flex-wrap justify-center lg:mx-10">
-                <div className="flex flex-col items-center w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 pb-10">
+
+            <div className="mt-8 flex flex-wrap justify-center gap-10 lg:mx-10">
+                <div className="flex items-center justify-center w-64 h-40 border-[12px] border-white rounded-lg bg-white">
                     <img 
-                        className="max-w-full h-auto mb-4 object-cover border-[12px] border-white rounded-lg" 
+                        className="max-w-full max-h-full object-contain" 
                         src={schneiderElectricImg} 
                         alt="Schneider Electric"
                     />
                 </div>
 
-                <div className="flex flex-col items-center w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 pb-10">
-
+                <div className="flex items-center justify-center w-64 h-40 border-[12px] border-white rounded-lg bg-white">
                     <img 
-                        className="max-w-full h-auto mb-4 object-cover border-[12px] border-white rounded-lg" 
+                        className="max-w-full max-h-full object-contain" 
                         src={hullImg} 
                         alt="Hull Tactical"
                     />
-
                 </div>
             </div>
         </div>
